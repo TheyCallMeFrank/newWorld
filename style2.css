@@ -1,0 +1,22 @@
+/* numbered paragraphs */
+h3.numbered {counter-reset: mynum;}
+
+body {counter-reset: headnum;}
+h3:before {
+  content: "(" counter(headnum, upper-latin) ") ";
+  counter-increment: headnum;
+}
+
+h3 {border: 6px ridge #11d; background-color: #557; color: #d11; text-align: center; position: absolute;}
+
+ul, #yup{list-style: lower-roman; border: 4px solid #048; margin-right: 30em; margin-left: 20em;}
+
+img {border-top: 7px dotted #448; border-right: 9px dotted #448}
+
+p.stuff {border: 4px solid #ccc; padding-left: 15px; margin-left: 20px;}
+ 
+p.numbered:before {
+  content: counter(mynum) ": ";
+  counter-increment: mynum;
+  font-weight: bold;
+}

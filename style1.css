@@ -1,0 +1,24 @@
+body {font: 18px "Comic Sans MS", cursive; background: url("prettygirl.jpg");}
+p {color: blue; }
+
+strong {color: dodgerblue; text-decoration: underline;}
+
+h1:after {font-weight: bold; color: aquamarine; content: "!";}
+
+h3:after {content: " " url("http://24.media.tumblr.com/1db20abe2c19e992d936b3f0c1fa2424/tumblr_mzbf0iqUKk1qznvrxo1_400.gif");}
+
+a:link, a.key:visited{
+  padding: 1px 10px 1px 10px;
+  color: #3366ff;
+  background: #a8a8a8;
+  border-radius: 3px;
+  border: 1px outset rgba(10,20,80,.5);
+  font-family: georgia, serif;
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: none;
+}
+
+a.key:hover, a.key:focus, a.key:active {
+  background-color: #b8b8b8;
+}

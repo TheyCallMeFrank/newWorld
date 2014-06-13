@@ -1,0 +1,26 @@
+{
+  "name": "newWorld",
+  "version": "0.0.0",
+  "description": "practice makes perfect.",
+  "main": "web.js",
+  "engines": {
+        "node": "0.10.x",
+        "npm": "1.3.x" 
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheyCallMeFrank/mySite.git"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "Frank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheyCallMeFrank/mySite/issues"
+  },
+
+  "homepage": "https://github.com/TheyCallMeFrank/mySite"
+}
